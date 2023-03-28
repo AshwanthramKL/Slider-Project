@@ -204,7 +204,7 @@ Slider
   text-align: center;
 }
 .slide-img {
-  height: 100%;
+  height: min-content;
   object-fit: cover;
 }
 .slide h1 {
@@ -225,7 +225,7 @@ Slider
 }
 .slide:nth-child(3) {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("./img-2.jpeg") center/cover no-repeat;
+    url("./images/img-2.jpeg") center/cover no-repeat;
 }
 .btn-container {
   display: flex;
@@ -277,6 +277,6 @@ Slider
   left: 300%;
 }
 .slide{
-  transform: translateX(-100%);
-} */
+  transform: translateX(0%);
+} g*/
 /* negative value moves to left */
